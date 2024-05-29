@@ -1,0 +1,26 @@
+programa {
+  funcao inicio()
+   {
+    real salario, desconto
+escreva("Digite o salário do funcionário: ")
+leia(salario)
+
+//calcula o desconto//////////////////////////////////////////////////
+desconto = salario * 0.11
+//////////////////////////////////////////////////////////////////////
+//verificar se o desconto ultrapassa o valor lá///////////////////////
+se (desconto > 334.29)
+{
+escreva ("O desconto é maior que o limite!")
+}
+
+
+senao se (desconto < 334.29)
+{
+escreva ("O desconto é abaixo do limite.")
+}
+
+escreva ("\nO desconto é de: ",desconto)
+
+   } 
+}   
